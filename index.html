@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaktBharat - Blood Donation Saves Lives</title>
+    <meta name="description"
+        content="India's free, direct-to-donor blood donation application. Connect with donors and save lives.">
+    <link rel="shortcut icon" href="/Assets/raktBharat.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cinzel+Decorative:wght@400;700;900&family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                <img src="/Assets/raktBharat.png" alt="RaktBharat Logo">
+                <span>RaktBharat</span>
+            </a>
+
+            <!-- Hamburger (MOBILE ONLY) -->
+            <button class="menu-toggle" aria-label="Open menu">
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+            </button>
+
+            <div class="nav-menu" data-aos="fade-down">
+                <a href="#home">Home</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#problems">Problems</a>
+                <a href="#features">Features</a>
+                <a href="#mission">Mission</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+
+            <!-- Left Illustration -->
+            <div class="hero-left">
+                <img src="/Assets/hand.svg" alt="Blood donation arm illustration" class="arm-illustration"
+                    data-aos="fade-up" loading="eager" />
+            </div>
+
+            <!-- Center Content -->
+            <div class="hero-center" data-aos="zoom-in">
+                <h1 class="hero-title">
+                    <span class="title-blood">BLOOD</span>
+                    <span class="title-donation">DONATION</span>
+                    <span class="title-saves">Saves Lives</span>
+                </h1>
+
+                <div class="decorative-dots" aria-hidden="true">
+                    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                    <span class="dot"></span><span class="dot"></span>
+
+                    <span class="strength-pill">Together, we’re Stronger</span>
+                </div>
+
+                <p class="hero-description">
+                    Rakt Bharat is India's free, direct-to-donor application, eliminating
+                    middlemen to ensure every drop of blood reaches the patient in time.
+                    Secure the life-saving help your loved ones need, quickly and efficiently.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="/Assets/apk/RaktBharat.apk" download="RaktBharat.apk" class="btn-donate">Download App</a>
+                    <a href="https://raktbharat.life/" class="btn-donate-red">Donate Now</a>
+                </div>
+            </div>
+
+            <!-- Decorative Blood Pipe
+            <div class="hero-blood-pipe" aria-hidden="true">
+                <img src="/Assets/pipe.svg" alt="" class="blood-bag" />
+            </div> -->
+
+            <!-- Right Illustration -->
+            <div class="hero-right" data-aos="fade-down">
+                <img src="/Assets/blood-bag.svg" alt="Blood bag illustration" class="blood-bag" loading="eager" />
+            </div>
+
+        </div>
+
+        <!-- Impact Strip -->
+        <div class="impact-strip">
+            <div class="impact-track">
+                <div class="wagon">
+                    <span>5+ DAYS OF SUPPLY</span>
+                    <span>2+ PATIENTS</span>
+                    <span>1 UNIT</span>
+                    <span>3+ LIVES SAVED</span>
+                </div>
+                <div class="wagon">
+                    <span>5+ DAYS OF SUPPLY</span>
+                    <span>2+ PATIENTS</span>
+                    <span>1 UNIT</span>
+                    <span>3+ LIVES SAVED</span>
+                </div>
+                <div class="wagon">
+                    <span>5+ DAYS OF SUPPLY</span>
+                    <span>2+ PATIENTS</span>
+                    <span>1 UNIT</span>
+                    <span>3+ LIVES SAVED</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works-section">
+        <h2 class="section-title" data-aos="zoom-in">How Rakt Bharat Works</h2>
+    
+        <section class="flexbox-container3">
+            <div class="steps-container">
+                <div class="flex-item">
+                    <div class="flex-box3"><span class="step-box">Step 1</span></div>
+                    <div class="step-text">
+                        <h3>Request</h3>
+                        <p>Submit a request for<br>blood and wait for few minutes.</p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="flex-box3 box-bg2"><span class="step-box">Step 2</span></div>
+                    <div class="step-text">
+                        <h3>Analyse</h3>
+                        <p>We analyse your<br>request and filter suitable for you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="steps-container">
+                <div class="flex-item">
+                    <div class="flex-box3 box-bg3"><span class="step-box">Step 3</span></div>
+                    <div class="step-text">
+                        <h3>Inform</h3>
+                        <p>Inform those filtered<br>donors about your requriment.</p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="flex-box3 box-bg4"><span class="step-box">Step 4</span></div>
+                    <div class="step-text">
+                        <h3>Connect</h3>
+                        <p>And connect both<br>of you as soon as possible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="Our-services">
+    
+        <div class="services-text">
+            <p>OUR GUIDE</p>
+            <h3>We Will Help To Donate Or Recevie Blood.</h3>
+        </div>
+    
+        <div class="flex-container2">
+    
+            <div class="flex-box2">
+                <div class="upper-section">
+                    <iframe src="https://www.youtube.com/embed/Q6Y4EIV23Og?si=JIzZasmGvLqSLAmG" loading="lazy"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <div class="lower-section">
+                    <h3>About RapidPass</h3>
+                    <p>RapidPass allows you to complete pre-donation reading and health history questions online before
+                        arriving
+                        at the donation center.</p>
+                    <a href="https://www.youtube.com/watch?v=Q6Y4EIV23Og" class="read-more">Learn More</a>
+                </div>
+            </div>
+    
+            <div class="flex-box2">
+                <div class="upper-section">
+                    <iframe src="https://www.youtube.com/embed/y9mK3JI3A2c?si=e94ySmYuDUPLxv7l" loading="lazy"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <div class="lower-section">
+                    <h3>Support Team</h3>
+                    <p>We will help you in donating and receiving blood, resolving technical issues 24x7. We are here for
+                        you.</p>
+                    <a href="https://www.youtube.com/watch?v=y9mK3JI3A2c" class="read-more">Learn More</a>
+                </div>
+            </div>
+    
+            <div class="flex-box2">
+                <div class="upper-section">
+                    <iframe src="https://www.youtube.com/embed/j659hy3hpPQ?si=0rqFbLb5QKqaa1iG" loading="lazy"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <div class="lower-section">
+                    <h3>Finding Donors</h3>
+                    <p>Click "FIND YOUR DONOR", fill out the form, and submit. You will receive donor details within
+                        minutes.</p>
+                    <a href="https://www.youtube.com/watch?v=j659hy3hpPQ" class="read-more">Learn More</a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section id="problems" class="problems-section">
+        <div class="problems-header">
+            <h2 class="section-title">
+                The Challenges We Solve
+            </h2>
+            <p class="section-subtitle">
+                Ending exploitation and eliminating life-threatening delays in emergencies.
+            </p>
+        </div>
+    
+        <div class="problems-container">
+            <div class="problem-card" data-aos="fade-up">
+                <span class="problem-badge">Problem 01</span>
+                <h3 class="problem-title">Broker Exploitation</h3>
+                <p class="problem-text">
+                    Brokers prey on desperation, turning a life-saving necessity into a business.
+                    Rakt Bharat removes middlemen and keeps help free and humane.
+                </p>
+            </div>
+    
+            <div class="problem-card" data-aos="fade-up" data-aos-delay="150">
+                <span class="problem-badge">Problem 02</span>
+                <h3 class="problem-title">Precious Time Lost</h3>
+                <p class="problem-text">
+                    In emergencies, minutes matter. Delays in finding the right blood group
+                    cost lives time no one can afford to lose.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <h2 class="section-title" data-aos="fade-down">Key Features & Impact</h2>
+        <div class="features-container">
+            <div class="feature-card" data-aos="fade-left">
+                <div class="feature-icon">
+                    <img src="Assets/1.png" alt="Help Sickle Cell Patients">
+                </div>
+                <h3 class="feature-title">Help Sickle Cell Patients</h3>
+                <p class="feature-text">
+                    Help people suffering from sickle cell disease by donating blood your support can save lives and
+                    provide critical relief during their toughest times.
+                </p>
+            </div>
+            <div class="feature-card" data-aos="fade-up">
+                <div class="feature-icon">
+                    <img src="/Assets/2.png" alt="Start Your RapidDose">
+                </div>
+                <h3 class="feature-title">Fast-Track Donation</h3>
+                <p class="feature-text">
+                    Skip the search and connect directly with verified recipients through our platform. We make saving a
+                    life faster, easier and 100% transparent.
+                </p>
+            </div>
+            <div class="feature-card" data-aos="fade-right">
+                <div class="feature-icon">
+                    <img src="/Assets/3.png" alt="Eligible To Donate Blood">
+                </div>
+                <h3 class="feature-title">Eligible To Donate Blood</h3>
+                <p class="feature-text">
+                    If you're feeling healthy and meet basic criteria, you are likely eligible to join our community and
+                    save a life by donating blood today.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision and Mission -->
+    <section id="mission" class="vision-mission-section">
+        <h2 class="section-title">Our Vision and Mission</h2>
+        <div class="vision-mission-container">
+            <div class="card vision-card" data-aos="fade-right">
+                <h3 class="card-title">VISION</h3>
+                <p class="card-text">
+                    To save people's blood without facing any issues and make every life precious and priceless.
+                </p>
+            </div>
+            <div class="card mission-card" data-aos="fade-left">
+                <h3 class="card-title">MISSION</h3>
+                <p class="card-text">
+                    An organization for those who exploit those in need by selling blood bags at inflated prices. We
+                    ensure a transparent, direct, and free connection between donors and recipients.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Members Section -->
+    <section class="team-unified-section">
+    
+        <div class="Team-members">
+            <div class="team">
+                <p style="font-size: 20px; color: red; font-weight: bold;">TEAM MEMBERS</p>
+                <h3 style="font-size: 24px; font-weight: bold;">Meet Our Member Who Are Leading Rakt Bharat.</h3>
+            </div>
+        </div>
+    
+        <div class="flex-container4">
+    
+            <div class="flex-box4 dheeraj">
+                <div class="hovering-content">
+                    <h3 id="dheeraj" style="text-align: left; margin: 0px;">Dheeraj Vaishnav</h3>
+                    <p style="margin-top: 5px;">He is the founder of Rakt Bharat and also a moto vlogger, managing the
+                        initiative with a broad vision to save lives and bring positive change to the world.</p>
+                    <div class="social-icons2">
+                        <a href="https://www.facebook.com/share/16kdeCjYzq/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/Dheeraj7568?t=Z5_zTv9Ts6b_S2UeEQpijw&amp;s=09" target="_blank"
+                            rel="noopener noreferrer" aria-label="Twitter">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path
+                                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/official_indian_hacker_007/profilecard/" target="_blank"
+                            rel="noopener noreferrer" aria-label="Instagram" class="social-icon instagram">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="white"
+                                    stroke-width="2" />
+                                <circle cx="12" cy="12" r="4" fill="none" stroke="white" stroke-width="2" />
+                                <circle cx="17.5" cy="6.5" r="1.2" fill="white" />
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC39kq3A71HzUto5qg4kjqjQ" target="_blank"
+                            rel="noopener noreferrer" aria-label="YouTube">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.5 6.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.1-1C17.6 2.5 12 2.5 12 2.5h0s-5.6 0-8.5.4c-.4.1-1.3.1-2.1 1-.7.7-.9 2.3-.9 2.3S0 8 0 9.8v1.9c0 1.8.5 3.6.5 3.6s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.2.4 7.2.4s5.6 0 8.5-.4c.4-.1 1.3-.1 2.1-1 .7-.7.9-2.3.9-2.3s.5-1.8.5-3.6V9.8c0-1.8-.5-3.6-.5-3.6zM9.5 14.6V7.4l6.2 3.6-6.2 3.6z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom-left">
+                    <h3 style="font-weight: bold; font-size: 18px;">Rakt Bharat</h3>
+                    <p>Founder</p>
+                </div>
+            </div>
+    
+            <div class="flex-box4 vardhan">
+                <div class="hovering-content">
+                    <h3 style="text-align: left; margin: 0px;">Harsh Vardhan</h3>
+                    <p style="margin-top: 5px;">He is a cybersecurity researcher and ethical hacker dedicated to
+                        strengthening digital security in India through innovation, education, and proactive threat
+                        management since 2020. Also he is the creator of this entire Rakt Bharat application.</p>
+                    <div class="social-icons2">
+                        <a href="https://www.facebook.com/profile.php?id=100094046834401" target="_blank"
+                            rel="noopener noreferrer" aria-label="Facebook">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="https://x.com/0hv1_hypervare" target="_blank" rel="noopener noreferrer"
+                            aria-label="Twitter">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path
+                                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                            </svg>
+                        </a>
+                        <a href="https://medium.com/@0.harshvardhan.1" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram" class="social-icon instagram">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="white"
+                                    stroke-width="2" />
+                                <circle cx="12" cy="12" r="4" fill="none" stroke="white" stroke-width="2" />
+                                <circle cx="17.5" cy="6.5" r="1.2" fill="white" />
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@hypervare" target="_blank" rel="noopener noreferrer"
+                            aria-label="YouTube">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.5 6.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.1-1C17.6 2.5 12 2.5 12 2.5h0s-5.6 0-8.5.4c-.4.1-1.3.1-2.1 1-.7.7-.9 2.3-.9 2.3S0 8 0 9.8v1.9c0 1.8.5 3.6.5 3.6s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.2.4 7.2.4s5.6 0 8.5-.4c.4-.1 1.3-.1 2.1-1 .7-.7.9-2.3.9-2.3s.5-1.8.5-3.6V9.8c0-1.8-.5-3.6-.5-3.6zM9.5 14.6V7.4l6.2 3.6-6.2 3.6z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom-left">
+                    <h3 style="font-weight: bold; font-size: 18px;">Hyper Vare</h3>
+                    <p>Founder &amp; CEO</p>
+                </div>
+            </div>
+    
+            <div class="flex-box4 budharam">
+                <div class="hovering-content">
+                    <h3 style="text-align: left; margin: 0px;">Budharam Sankhla</h3>
+                    <p style="margin-top: 5px;">He is the founder of Marwar Rakt Sewa Sansthan, Jodhpur. His NGO is doing
+                        remarkable work across the entire city.</p>
+                    <div class="social-icons2">
+                        <a href="https://www.facebook.com/share/1M5TaioeLu/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="https://x.com/hypervare" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path
+                                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/budha_ram_sankhla" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram" class="social-icon instagram">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="white"
+                                    stroke-width="2" />
+                                <circle cx="12" cy="12" r="4" fill="none" stroke="white" stroke-width="2" />
+                                <circle cx="17.5" cy="6.5" r="1.2" fill="white" />
+                            </svg>
+                        </a>
+                        <a href="https://youtube.com/@marwarraktsewasansthanjodhpur" target="_blank"
+                            rel="noopener noreferrer" aria-label="YouTube">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.5 6.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.1-1C17.6 2.5 12 2.5 12 2.5h0s-5.6 0-8.5.4c-.4.1-1.3.1-2.1 1-.7.7-.9 2.3-.9 2.3S0 8 0 9.8v1.9c0 1.8.5 3.6.5 3.6s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.2.4 7.2.4s5.6 0 8.5-.4c.4-.1 1.3-.1 2.1-1 .7-.7.9-2.3.9-2.3s.5-1.8.5-3.6V9.8c0-1.8-.5-3.6-.5-3.6zM9.5 14.6V7.4l6.2 3.6-6.2 3.6z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom-left">
+                    <h3 style="font-weight: bold; font-size: 18px;">MRSSJ</h3>
+                    <p>Founder</p>
+                </div>
+            </div>
+    
+            <div class="flex-box4 rachit">
+                <div class="hovering-content">
+                    <h3 id="rachit" style="text-align: left; margin: 0px;">Rachit Anand</h3>
+                    <p style="margin-top: 5px;">He is the Chief Financial Officer in Hyper Vare cybersecurity company. In
+                        his role, he oversees the company's financial strategies and contributes to its mission of enhancing
+                        digital security across India.</p>
+                    <div class="social-icons2">
+                        <a href="https://www.facebook.com/hypervare/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="https://x.com/rachitanand708" target="_blank" rel="noopener noreferrer"
+                            aria-label="Twitter">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path
+                                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/rachit__16__?igsh=MWN5cTQ4bTZhZjNkNQ==" target="_blank"
+                            rel="noopener noreferrer" aria-label="Instagram" class="social-icon instagram">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="white"
+                                    stroke-width="2" />
+                                <circle cx="12" cy="12" r="4" fill="none" stroke="white" stroke-width="2" />
+                                <circle cx="17.5" cy="6.5" r="1.2" fill="white" />
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@hypervare" target="_blank" rel="noopener noreferrer"
+                            aria-label="YouTube">
+                            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.5 6.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.1-1C17.6 2.5 12 2.5 12 2.5h0s-5.6 0-8.5.4c-.4.1-1.3.1-2.1 1-.7.7-.9 2.3-.9 2.3S0 8 0 9.8v1.9c0 1.8.5 3.6.5 3.6s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.2.4 7.2.4s5.6 0 8.5-.4c.4-.1 1.3-.1 2.1-1 .7-.7.9-2.3.9-2.3s.5-1.8.5-3.6V9.8c0-1.8-.5-3.6-.5-3.6zM9.5 14.6V7.4l6.2 3.6-6.2 3.6z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom-left">
+                    <h3 style="font-weight: bold; font-size: 18px;">Hyper Vare</h3>
+                    <p>Co-Founder &amp; CFO</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="clear-flexbox">
+            <div class="clear-box">
+                <h3 style="font-weight: bold; font-size: 20px; color:#004AAB; margin-bottom: 5px;">Let's Know
+                    About Our All Members</h3>
+                <p style="font-size: 15px;">A Rakt Bharat Team member plays a vital role in promoting the life-saving
+                    mission of voluntary blood donation across India. These dedicated individuals are actively involved in
+                    organizing blood donation drives, collaborating with hospitals and local communities, and raising
+                    awareness about the importance of regular blood donation through campaigns and social media. They
+                    maintain donor databases, coordinate emergency donations, and often respond quickly in critical
+                    situations where specific blood types are urgently needed. Team members also focus on engaging youth by
+                    encouraging participation in colleges and universities, fostering a culture of compassion and civic
+                    responsibility. With strong communication skills, a deep sense of empathy, and unwavering commitment to
+                    public health, Rakt Bharat Team members contribute significantly to saving lives and building a more
+                    responsive healthcare ecosystem.</p>
+            </div>
+        </div>
+    
+    </section>
+
+<!-- contact -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+    
+            <div class="contact-form-wrapper" data-aos="fade-up">
+                <h2 class="contact-title">Contact Info</h2>
+                <p class="contact-subtitle">Reach out to us through any of these channels.</p>
+    
+                <div class="contact-info-list">
+                    <div class="info-item">
+                        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-text">
+                            <h3>Office</h3>
+                            <p>Jodhpur, Delhi, Patna</p>
+                        </div>
+                    </div>
+                
+                    <div class="info-item">
+                        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p>mail@raktbharat.com</p>
+                        </div>
+                    </div>
+                
+                    <div class="info-item">
+                        <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-text">
+                            <h3>Phone</h3>
+                            <p>7568636889, 8873520786</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="contact-visuals" data-aos="fade-left" style="margin-top: 85px; height: calc(100% - 85px);">
+                <div class="visual-card map-box" style="height: 100%; width: 100%;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d32388.764267364477!2d73.025507!3d26.260193!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418d574415d165%3A0x4b44a85907785678!2sHyper%20Vare!5e1!3m2!1sen!2sin!4v1770794148168!5m2!1sen!2sin   "
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Our Location">
+                    </iframe>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="/Assets/raktBharat.png" alt="RaktBharat Logo" class="footer-logo">
+                <span class="footer-brand">RaktBharat</span>
+            </div>
+
+            <div class="footer-center">
+                <a href="privacy.html">Privacy Policy</a>
+
+                <a href="terms.html">Terms & Conditions</a>
+
+                <a href="https://hypervare.com/contact/" target="_blank" rel="noopener noreferrer">Technical Support</a>
+            </div>
+
+            <div class="footer-right">
+
+                <!-- <button style="display: flex; align-items: center; gap: 8px;" class="cta-button">Ready to get started <span style="font-size: 18px;">➞</span></button> -->
+
+                <a href="https://raktbharat.life/create/user" style="text-decoration: none;">
+                    <button class="cta-button">Register Now</button>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Rakt Bharat - All Rights Reserved | Developed by <a href="https://hypervare.com/"
+                    style="text-decoration: none;"> <span id="hypervare-brand">Hyper Vare</span></a></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/people/Rakt-Bharat/61579596333370/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                    </svg>
+                </a>
+
+                <a href="https://x.com/RaktBharat?t=fxhAiiFDmLee1asrWev5tA&s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                    </svg>
+                </a>
+
+                <a href="https://www.instagram.com/raktbharat/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram" class="social-icon instagram">
+
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                        <!-- Camera outline -->
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="white"
+                            stroke-width="2" />
+
+                        <!-- Lens -->
+                        <circle cx="12" cy="12" r="4" fill="none" stroke="white" stroke-width="2" />
+
+                        <!-- Flash dot -->
+                        <circle cx="17.5" cy="6.5" r="1.2" fill="white" />
+                    </svg>
+
+                </a>
+
+                <a href="https://api.whatsapp.com/send/?phone=917568636889&type=phone_number&app_absent=0" target="_blank"
+                    rel="noopener noreferrer" aria-label="WhatsApp">
+                    <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                        <path
+                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.298-4.3-9.886-9.891-9.886-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487 2.979 1.288 2.979.859 3.523.809.546-.05 1.759-.718 2.006-1.412.248-.695.248-1.29.173-1.414z" />
+                    </svg>
+                </a>
+
+                <a href="https://www.linkedin.com/in/rakt-bharat-27b863380/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                        <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z" />
+                        <rect x="2" y="9" width="4" height="12" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UC39kq3A71HzUto5qg4kjqjQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                        <path
+                            d="M23.5 6.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.1-1C17.6 2.5 12 2.5 12 2.5h0s-5.6 0-8.5.4c-.4.1-1.3.1-2.1 1-.7.7-.9 2.3-.9 2.3S0 8 0 9.8v1.9c0 1.8.5 3.6.5 3.6s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.2.4 7.2.4s5.6 0 8.5-.4c.4-.1 1.3-.1 2.1-1 .7-.7.9-2.3.9-2.3s.5-1.8.5-3.6V9.8c0-1.8-.5-3.6-.5-3.6zM9.5 14.6V7.4l6.2 3.6-6.2 3.6z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-top" aria-label="Scroll to top">
+        <svg class="progress-ring" width="64" height="64">
+            <circle class="progress-ring__circle" stroke-width="4" fill="transparent" r="30" cx="32" cy="32" />
+        </svg>
+
+        <span class="scroll-inner">
+            <svg viewBox="0 0 24 24">
+                <path d="M12 17V7M7.5 11.5L12 7L16.5 11.5" fill="none" stroke="white" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </span>
+    </button>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
