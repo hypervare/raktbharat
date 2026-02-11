@@ -1055,19 +1055,19 @@ body {
 
 /* 7. Individual Image Backgrounds */
 .dheeraj {
-  background-image: url(/Assets/dheeraj.jpg);
+  background-image: url(Assets/dheeraj.jpg);
 }
 
 .vardhan {
-  background-image: url(/Assets/founderHyperVare.jpg);
+  background-image: url(Assets/founderHyperVare.jpg);
 }
 
 .budharam {
-  background-image: url(/Assets/budharam.jpg);
+  background-image: url(Assets/budharam.jpg);
 }
 
 .rachit {
-  background-image: url(/Assets/rachit.jpg);
+  background-image: url(Assets/rachit.jpg);
 }
 
 /* =============================================
@@ -1897,4 +1897,5 @@ body {
   color: rgb(255, 255, 255);
   font-size: 17px;
   font-family: "Black Ops One", system-ui;
+
 }
